@@ -1,0 +1,7 @@
+services:
+  nao_drawing_board:
+    build:
+      context: .
+      target: production
+    ports:
+      - "80:80"
